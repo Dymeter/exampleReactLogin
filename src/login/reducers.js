@@ -1,6 +1,5 @@
-import reduxStore from '../lib/store';
 import { LOGIN_ACTION, INPUT_USER, INPUT_PASSWORD } from './constants';
-import { loginUser, usersList, logoutUser } from './fetch';
+import { loginUser } from './fetch';
 
 const defaultState = {
   username: '',

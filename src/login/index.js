@@ -4,10 +4,9 @@ import * as actionCreators from './actions';
 import Login from './components';
 
 function mapStateToProps(state) {
-  const { selectedUser, usersList, password } = state.login;
+  const { username, password } = state.login;
   return {
-    usersList,
-    selectedUser,
+    username,
     password
   };
 }
