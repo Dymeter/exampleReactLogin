@@ -3,9 +3,6 @@ import styles from '../styles.css';
 
 const Login = props =>
   <div className="login">
-    <div>
-      Logo
-    </div>
     <div className="loginInput">
       <h1>User</h1>
       <input
