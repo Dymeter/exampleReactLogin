@@ -1,0 +1,8 @@
+{
+  "development": {
+    "API":"http://route:3000"
+  },
+  "production": {
+    "API":"http://route:3000"
+  }
+}
