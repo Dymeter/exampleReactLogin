@@ -3,6 +3,6 @@
     "API":"http://route:3000"
   },
   "production": {
-    "API":"http://route:3000"
+    "API":"http://route:8080"
   }
 }

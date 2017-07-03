@@ -2,11 +2,11 @@ import React from 'react';
 import styles from '../styles.css';
 
 const Login = props =>
-  <div className={styles.login}>
+  <div className="login">
     <div>
       Logo
     </div>
-    <div className={styles.loginInput}>
+    <div className="loginInput">
       <h1>User</h1>
       <input
         value={props.user}
@@ -14,7 +14,7 @@ const Login = props =>
         type="text"
       />
     </div>
-    <div className={styles.loginInput}>
+    <div className="loginInput">
       <h1>Password</h1>
       <input
         value={props.password}
@@ -23,7 +23,7 @@ const Login = props =>
       />
     </div>
     <button
-      className={styles.loginButton}
+      className="loginButton"
       onClick={(e) => {
         props.handeLogin(props.router);
       }}
